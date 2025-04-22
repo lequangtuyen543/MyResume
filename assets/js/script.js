@@ -85,11 +85,10 @@ document.addEventListener("DOMContentLoaded", function () {
       "Freelancer",
       "Photographer",
     ],
-    typedSpeed: 50,
+    typeSpeed: 100,
     backSpeed: 25,
     backDelay: 1000,
     loop: true,
-    typeSpeed: 100,
     cursorChar: "|"
   });
 });

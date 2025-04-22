@@ -842,8 +842,11 @@ body {
   &-show {
     width: 300px;
     left: 0;
-    background: var(--contrast-color);
     z-index: 99;
+
+    @media (max-width: 1199px) {
+      background: var(--contrast-color);
+    }
 
     .navmenu {
       display: block;
@@ -1152,7 +1155,7 @@ body {
       }
     }
 
-    p{
+    p {
       margin: 10px 0;
       color: var(--default-color);
     }
